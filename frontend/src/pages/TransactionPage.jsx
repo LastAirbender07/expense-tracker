@@ -66,7 +66,7 @@ const TransactionPage = () => {
 				date: new Date(+data.transaction.date).toISOString().substr(0, 10),
 			});
 		}
-		console.log(formData);
+		// console.log(formData);
 	}, [data]);
 	if (loading) return <TransactionFormSkeleton />;
 
