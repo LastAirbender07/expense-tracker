@@ -5,6 +5,7 @@ import { GET_TRANSACTION } from "../graphql/queries/transaction.query";
 import { UPDATE_TRANSACTION } from "../graphql/mutations/transaction.mutation";
 import toast from "react-hot-toast";
 import TransactionFormSkeleton from "../components/skeletons/TransactionFormSkeleton";
+import { GET_TRANSACTION_STATISTICS } from "../graphql/queries/transaction.query";
 
 const TransactionPage = () => {
 	const {id} = useParams();
